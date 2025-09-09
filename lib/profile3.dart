@@ -7,8 +7,16 @@ class Profile3Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Profil Nadia"),
         backgroundColor: const Color(0xFF0C5D8F),
+        elevation: 0,
+        centerTitle: true,
+        title: const Text(
+          "Profil Nadia",
+          style: TextStyle(color: Colors.white),
+        ),
+        iconTheme: const IconThemeData(
+          color: Colors.white,
+        ),
       ),
       body: const Center(
         child: Text(""),
