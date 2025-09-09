@@ -13,7 +13,7 @@ class Profile2Page extends StatelessWidget {
           elevation: 0,
           centerTitle: true,
           title: const Text(
-            "Profil Safa Fadillah",
+            "Profile Safa Fadillah",
             style: TextStyle(color: Colors.white),
           ),
           iconTheme: const IconThemeData(

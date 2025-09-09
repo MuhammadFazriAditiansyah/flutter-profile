@@ -19,7 +19,7 @@ class DashboardPage extends StatelessWidget {
             color: const Color(0xFF0C5D8F),
             child: const Center(
               child: Text(
-                "KELOMPOK 3",
+                "PROFILE - KELOMPOK 3",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 22,
@@ -38,8 +38,8 @@ class DashboardPage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               children: [
                 MemberCard(
-                  name: "Adit",
-                  role: "Back-End Developer",
+                  name: "Muhammad Fazri Aditiansyah",
+                  role: "Front-End Developer",
                   imagePath: "assets/images/profile1.jpg",
                   onTap: () {
                     Navigator.push(
